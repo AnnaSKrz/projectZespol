@@ -16,7 +16,7 @@ body{
     }
     
     .navbar-brand > img {
-      height: 1.8rem;
+      height: 3.5rem;
     } 
     
     .navbar-nav li{
@@ -47,6 +47,7 @@ body{
     
     .caption h3{
       padding-bottom: 1rem;
+      border: solid rgba(128, 128, 128, 0.801) 1px;
     }
     
     .caption{
@@ -57,6 +58,8 @@ body{
       text-transform: uppercase;
       z-index: 1;
     }
+
+    
     
     /* course */
     #course{
@@ -98,7 +101,7 @@ body{
     }
     
     footer a:hover, footer p, footer h3{
-      color:black
+      color:rgb(58, 57, 57)
     }
     
     footer img{
