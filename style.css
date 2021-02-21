@@ -1,123 +1,164 @@
-
 /* General rules */
-body{
-    /* własny font z google fonts */
-    overflow-x: hidden;
-    background-color: rgb(233, 236, 239);
-    }
-    
-    
-    /* Navigation */
-    .navbar{
-      background-color: black;
-      font-size: 0.9rem;
-      letter-spacing: 0.1rem;
-      font-weight: bold;
-    }
-    
-    .navbar-brand > img {
-      height: 1.8rem;
-    } 
-    
-    .navbar-nav li{
-      padding-right: 0.6rem;
-    }
-    
-    .navbar .navbar-nav .nav-link{
-      color: white;
-      padding-top: 0.6rem;
-    }
-    
-    .navbar .navbar-nav .nav-link:hover{
-      color: limegreen;
-    }
-    
-    /* Landing */
-    .home-inner{
-      background-image: url(img/computers.png);
-      background-size: contain;
-    }
-    
-    .caption h1{
-      font-size: 2rem;
-      font-weight: bold;
-      letter-spacing: 0.1rem;
-      padding-bottom: 1rem;
-    }
-    
-    .caption h3{
-      padding-bottom: 1rem;
-    }
-    
-    .caption{
-      width: 100%;
-      position: absolute;
-      top: 30%;
-      color: white;
-      text-transform: uppercase;
-      z-index: 1;
-    }
-    
-    /* course */
-    #course{
-      background-color: lightgrey;
-    }
-    
-    
-    /* Features */
-    .jumbotron{
-      color: black;
-      padding-bottom: 0;
-      margin-bottom: 0;
-    }
-    
-    .features-list{
-      list-style: none;
-    }
-    
-    .line{
-      margin-bottom: 0;
-    }
-    
-    /* Clients */
-    .client{
-      border-radius: 50%;
-      width: 90%;
-      min-width: 15vw;
-    }
-    
-    .blockquote, .jumbo-line{
-      width: 70%;
-      margin: 0 auto;
-    }
-    
-    /* Contact */
-    
-    footer, footer a{
-      color: white;
-    }
-    
-    footer a:hover, footer p, footer h3{
-      color:black
-    }
-    
-    footer img{
-      height: 3rem;
-      margin: 1rem 0;
-    }
-    
-    /* @media queries own rules */
-    
-    @media all and (max-width: 767px){
-      .client{
-        width: 50%;
-        max-width: 40vw;
-      }
-    }
-    
-    @media all and (min-width: 768px) and (max-width: 991px){
-      .client{
-        width: 70%;
-      }
-    }
-    
+body {
+  /* własny font z google fonts */
+  overflow-x: hidden;
+  background-color: rgb(233, 236, 239);
+}
+
+/* Navigation */
+.navbar {
+  background-color:#3cbabe;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+}
+
+.navbar-brand > img {
+  height: 3rem;
+}
+
+.navbar-nav li {
+  padding-right: 0.6rem;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: black;
+  padding-top: 0.6rem;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: blue;
+}
+
+/* Landing */
+.home-inner {
+  background-image: url(img/spring2.jpg);
+  background-size: contain;
+  opacity: 0.8;
+}
+
+.caption h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  padding-bottom: 1rem;
+}
+
+.caption h3 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.caption {
+  width: 100%;
+  color:#49f3ff;
+  text-transform: uppercase;
+  z-index: 1;
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn1 {
+  text-decoration: none;
+  text-align: center;
+  color: #3cbabe;
+  border: 2px solid #3cbabe;
+  border-radius: 4px;
+  position: relative;
+  width: 250px;
+  line-height: 40px;
+  display: inline-block;
+  font-family: Arial;
+  font-weight: 600;
+  overflow: hidden;
+}
+.btn1:before {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  width: 40px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -70px;
+  transform: skewX(-45deg) translateX(0px);
+  transition: none;
+}
+.btn1:hover {
+  background-color: #3cbabe;
+  color: #ffffff;
+  border-bottom: 2px solid #319598;
+}
+
+.btn1:hover:before {
+  transform: skewX(-45deg) translateX(250px);
+  transition: all 0.4s ease-in;
+}
+
+/* course */
+#course {
+  background-color: lightgrey;
+}
+
+/* Features */
+.jumbotron {
+  color: black;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.line {
+  margin-bottom: 0;
+}
+
+/* Clients */
+.client {
+  border-radius: 50%;
+  width: 90%;
+  min-width: 15vw;
+}
+
+.blockquote,
+.jumbo-line {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* Contact */
+
+footer,
+footer a {
+  color: white;
+}
+
+footer a:hover,
+footer p,
+footer h3 {
+  color: black;
+}
+
+footer img {
+  height: 3rem;
+  margin: 1rem 0;
+}
+
+/* @media queries own rules */
+
+@media all and (max-width: 767px) {
+  .client {
+    width: 50%;
+    max-width: 40vw;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .client {
+    width: 70%;
+  }
+}
