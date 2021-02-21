@@ -16,7 +16,7 @@ body{
     }
     
     .navbar-brand > img {
-      height: 3.5rem;
+      height: 5rem;
     } 
     
     .navbar-nav li{
@@ -34,8 +34,10 @@ body{
     
     /* Landing */
     .home-inner{
-      background-image: url(img/computers.png);
+      background-image: url(img/MainFlower.png);
       background-size: contain;
+      background-attachment: fixed;
+      background-position: center;
     }
     
     .caption h1{
@@ -97,15 +99,15 @@ body{
     /* Contact */
     
     footer, footer a{
-      color: white;
+      color: rgb(119, 118, 118);
     }
     
     footer a:hover, footer p, footer h3{
-      color:rgb(58, 57, 57)
+      color:black;
     }
     
     footer img{
-      height: 3rem;
+      height: 6rem;
       margin: 1rem 0;
     }
     
