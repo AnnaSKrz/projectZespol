@@ -100,7 +100,9 @@ body{
     
     /* course */
     #course{
-      background-color: blue;
+      background-color:  #3cbabe;
+      font-size: 2rem;
+  text-align: center;
     }
     
     
