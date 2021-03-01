@@ -130,20 +130,18 @@ body{
       padding: 5px;
     }
 
-    /* Clients */
-    .client{
-      border-radius: 50%;
-      width: 90%;
-      min-width: 15vw;
-    }
+    /* Newsletter */
     
-    .blockquote, .jumbo-line{
-      width: 70%;
-      margin: 0 auto;
+    .newsletter{
+      position: relative;
+      margin-top: 3rem;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
     
     /* Contact */
-    
+
+
     footer, footer a{
       color: rgb(119, 118, 118);
     }
